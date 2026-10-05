@@ -1,0 +1,13 @@
+index_title: Garp
+index_description: Turn your grandpa's voice memos into a family recipe book.
+show_images_on_index:
+lang: en
+strings:
+  search_placeholder: Search...
+  uncategorized_label: Uncategorized
+  source_label: Source
+  footer_text: Enjoy!
+  updated_on: Updated on
+  edit: Edit
+github_url:
+deploy_remote:
