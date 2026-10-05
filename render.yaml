@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: garp
+    runtime: python
+    branch: main
+    buildCommand: python3 -m py_compile extractor/*.py
+    startCommand: python3 -m extractor.server
+    disk:
+      name: garp-book
+      mountPath: /opt/render/project/src/book/_recipes
+      sizeGB: 1
+    envVars:
+      - key: LLM_BACKEND
+        value: backboard
+      - key: BOOK_DIR
+        value: /opt/render/project/src/book/_recipes
+      - key: ELEVENLABS_API_KEY
+        sync: false
+      - key: BACKBOARD_API_KEY
+        sync: false
+      - key: TINKER_API_KEY
+        sync: false
