@@ -4,6 +4,9 @@ Turn your grandpa's voice memos into a family recipe book.
 
 Record or upload a voice note. Garp transcribes it, pulls out the recipe in the speaker's own words, and prints it as a page in a 3D family cookbook. Anything that isn't a recipe gets rejected and never touches the book.
 
+<img width="1321" height="785" alt="Screenshot 2026-10-05 at 12 37 19 PM" src="https://github.com/user-attachments/assets/99be68ba-072d-49c2-b54a-86540f230da2" />
+
+
 ## Run it
 
 ```bash
@@ -37,3 +40,5 @@ voice memo → POST /extract → transcribe → recipe JSON → book/_recipes/*.
 ## Deploy
 
 `render.yaml` is a one-click Render blueprint. Add the API keys in the Render dashboard (never commit them) and attach a disk at `book/_recipes` so saved recipes survive redeploys.
+
+https://dev.to/morningstarxcdcode/hi-1m4h
