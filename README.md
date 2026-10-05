@@ -42,3 +42,4 @@ voice memo → POST /extract → transcribe → recipe JSON → book/_recipes/*.
 `render.yaml` is a one-click Render blueprint. Add the API keys in the Render dashboard (never commit them) and attach a disk at `book/_recipes` so saved recipes survive redeploys.
 
 https://dev.to/morningstarxcdcode/hi-1m4h
+https://youtu.be/rk7lrtw72DM
